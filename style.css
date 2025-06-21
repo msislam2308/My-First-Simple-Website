@@ -16,3 +16,46 @@ h1{
     text-align: center;
     text-decoration: underline;
 }
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+thead{
+    background-color: #68a5d8;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 0 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(206, 203, 6);
+}
+nav li a:hover{
+    color: #05e580;
+}
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lab(94.85% -1.72 2.65);
+    border: 1px solid red;
+    padding: 10px;
+    z-index: 1000;
+}
+nav li:hover .dropdown{
+    display: block;
+}
