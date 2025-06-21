@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Please fill the form</h1>
+    <header></header>
+    <main>
+        <section><form>
+            <label for="name">Your Name:
+                <input type="text" id="name" placeholder="Enter your name">
+            </label><br>
+            <label for="age">Your Age:
+                <input type="number" id="age" placeholder="Enter your age">
+            </label><br>
+            <label for="email">Your Email:
+                <input type="email" id="email" placeholder="Enter your email">
+            </label><br>
+            <label for="phone">Your Phone:
+                <input type="tel" id="phone" placeholder="Enter your phone number">
+            </label><br>
+            <label for="password">Your Password:
+                <input type="password" id="password" placeholder="Enter your password">
+            </label><br>
+            <fieldset>
+                <legend>Religion</legend>
+                <label for="islam">
+                    <input type="radio" id="islam" name="religion">
+                    Islam
+                </label><br>
+                <label for="christianity">
+                    <input type="radio" id="christianity" name="religion">
+                    Christianity
+                </label><br>
+                <label for="hinduism" >
+                    <input type="radio" id="hinduism" name="religion">
+                    Hinduism
+                </label><br>
+                <label for="buddhism">
+                    <input type="radio" id="buddhism" name="religion"> 
+                    Buddhism
+                </label><br>
+                <label for="other">
+                    <input type="radio" id="other" name="religion"> 
+                    Other
+                </label><br>
+            </fieldset>
+            <fieldset>
+                <legend>Education</legend>
+                <label for="ssc">
+                    <input type="checkbox" id="ssc" name="education"> 
+                    SSC
+                </label>
+                <label for="hsc">
+                    <input type="checkbox" id="hsc" name="education"> 
+                    HSC
+                </label>
+                <label for="bachelor">
+                    <input type="checkbox" id="bachelor" name="education"> 
+                    Bachelor
+                </label>
+                <label for="master">
+                    <input type="checkbox" id="master" name="education"> 
+                    Master
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Note</legend>
+                <textarea id="note" rows="10" cols="40" placeholder="Write your note here"></textarea>
+            </fieldset>
+            <input type="submit" value="Submit"><br>
+            <input type="reset" value="Reset">
+        </form></section>
+    </main>
+</body>
+</html>
